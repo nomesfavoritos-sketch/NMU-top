@@ -1,0 +1,124 @@
+Create a world-class, ultra-premium homepage design for a modern medical university. The design must feel more refined and elegant than top global institutions like Harvard Medical School, Stanford Medicine, and Johns Hopkins.
+
+IMPORTANT:
+Do NOT follow traditional or outdated university website layouts. Avoid grid-heavy, cluttered, or government-style designs. Focus on a clean, storytelling-driven, luxury digital experience.
+
+BRAND IDENTITY:
+
+* Primary Color: Deep Emerald Green (#0F5D3F)
+* Secondary: Dark Green (#0B3D2E)
+* Accent: Premium Gold/Yellow (#F4B400)
+* Background: Soft neutral (#F8FAFC)
+* Text: Charcoal (#1A1A1A)
+
+STYLE:
+
+* Minimal, elegant, high-end
+* Strong use of whitespace
+* Soft shadows and depth
+* Rounded corners (12–16px)
+* Smooth animations and transitions
+* Editorial + SaaS hybrid design
+
+TYPOGRAPHY:
+
+* Headings: Poppins or Playfair Display (bold and elegant)
+* Body: Inter (clean and readable)
+
+HOMEPAGE EXPERIENCE FLOW:
+
+1. IMMERSIVE HERO SECTION
+
+* Full screen height
+* Cinematic background (medical campus or students)
+* Dark green gradient overlay
+* Main headline:
+  "Redefining the Future of Medical Education"
+* Short subheading
+* CTA buttons:
+
+  * Apply Now (gold button)
+  * Explore Programs (outline)
+* Centered and spacious layout
+
+2. QUICK ACCESS (MINIMAL)
+
+* 3–4 premium cards (not heavy grid)
+* Admissions, Results, Downloads, Notices
+* Glass-style cards with soft shadow
+* Hover lift animation
+
+3. VICE CHANCELLOR MESSAGE (ELEGANT)
+
+* Two-column layout
+* Left: portrait image with rounded corners and soft shadow
+* Right:
+
+  * Small label: "Message from the Vice Chancellor"
+  * Name and designation (bold)
+  * Short refined excerpt (3–4 lines only)
+  * "Read Full Message" button
+* Keep it minimal, professional, and prestigious
+
+4. DISCOVER EXPERIENCE (INSTEAD OF BASIC GRIDS)
+
+* Large interactive panels:
+
+  * Study Medicine
+  * Clinical Training
+  * Research Innovation
+* Each panel visually rich with image + overlay
+* Hover animations (expand or highlight)
+
+5. CAMPUS & FACILITIES (VISUAL STORY)
+
+* Edge-to-edge images
+* Clean layout
+* Minimal text
+* Parallax or smooth transitions
+
+6. NEWS & INSIGHTS (EDITORIAL STYLE)
+
+* One featured large story
+* 2–3 smaller stories
+* Clean typography and spacing
+* No clutter
+
+7. IMPACT / STATS SECTION
+
+* Dark green background
+* Gold-accent numbers
+* Animated counters
+* Large typography for impact
+
+8. SOCIAL / FACEBOOK FEED
+
+* Clean embedded feed section
+* Balanced spacing
+* Not cluttered
+
+9. FINAL CALL TO ACTION
+
+* Strong minimal section
+* Heading:
+  "Begin Your Journey in Medicine"
+* Prominent gold button
+
+UX PRINCIPLES:
+
+* Clear visual hierarchy
+* Strong call-to-actions
+* Mobile-first responsive design
+* Smooth scrolling and subtle animations
+* Content breathing space
+
+STRICTLY AVOID:
+
+* Old-style WordPress layouts
+* Heavy grid systems
+* Long paragraphs
+* Cluttered sections
+* Boxy designs
+
+OUTPUT:
+Generate a visually stunning, modern, luxurious homepage design that feels like a flagship global institution website. The layout should be clean, structured, and ready to implement in Elementor or similar builders.
