@@ -515,32 +515,29 @@ em {
   background: var(--secondary);
   overflow: hidden;
 }
-.vc-image-fill {
+.vc-photo {
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, #0a3328 0%, #0F5D3F 60%, #0a2e20 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
 }
-.vc-avatar-large {
+.vc-image-side::after {
+  content: '';
   position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  padding-bottom: 0;
-}
-.vc-avatar-large svg {
-  width: 70%;
-  max-width: 300px;
-  opacity: 0.18;
+  bottom: 0; left: 0; right: 0;
+  height: 120px;
+  background: linear-gradient(to top, rgba(6,14,10,0.7) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
 }
 .vc-number {
   position: absolute;
   top: 3rem;
   left: 3rem;
+  z-index: 2;
   font-family: 'Poppins', sans-serif;
   font-size: 0.65rem;
   letter-spacing: 0.2em;
