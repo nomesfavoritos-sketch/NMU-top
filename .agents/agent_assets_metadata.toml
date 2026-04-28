@@ -1,0 +1,98 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "PloYC8TQuhReDY8m_Yg0P"
+uri = "file://images/hero-bg.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "m3x86vW_mjLOhBgBErEix"
+uri = "file://images/panel-study.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "yvFLBBKWd6kX74XE0ztt5"
+uri = "file://images/panel-clinical.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "vY42QuGFFgg2VoyDg6Of1"
+uri = "file://images/panel-research.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "ZKXqekT77Eqp2__90yq0X"
+uri = "file://images/campus-main.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "j3AsyyhAGS_KUJkbouG7S"
+uri = "file://images/campus-lab.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "UMelRM4eCAvmvvDUg3a3b"
+uri = "file://images/campus-library.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "H7S-efrbobmHhV7eIqJbV"
+uri = "file://images/campus-simulation.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "lFo5zptgF3prvAKXEfYsb"
+uri = "file://images/news-featured.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "KP-sWwf1y1lo1OcOcCeoX"
+uri = "file://images/news-admissions.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "I-xbNcZj2kgyKMgbBEeRC"
+uri = "file://images/news-award.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "IjvjDOf9YuSmTnRq7-KE4"
+uri = "file://images/news-conference.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "BMPP6LDLcO5SXS1mRmRhQ"
+uri = "file://images/social-1.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "AAhM67iDMTNjxorTguj70"
+uri = "file://images/social-2.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "_0BEdGiJjGoX4PeopY13P"
+uri = "file://images/social-3.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "RK0F5hIn8G-3r4lvZ29kC"
+uri = "file://images/social-4.png"
+type = "image"
+title = "generated_image"

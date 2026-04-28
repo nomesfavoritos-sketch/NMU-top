@@ -280,10 +280,9 @@ em {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: 
-    radial-gradient(ellipse at 15% 80%, rgba(15,93,63,0.55) 0%, transparent 55%),
-    radial-gradient(ellipse at 85% 20%, rgba(11,61,46,0.4) 0%, transparent 50%),
-    linear-gradient(160deg, #08120d 0%, #0b1a12 40%, #060e0a 100%);
+  background:
+    linear-gradient(160deg, rgba(6,14,10,0.82) 0%, rgba(11,45,28,0.65) 50%, rgba(6,14,10,0.88) 100%),
+    url('/images/hero-bg.png') center center / cover no-repeat;
 }
 .hero-grid-overlay {
   position: absolute;
@@ -633,13 +632,19 @@ em {
 }
 .discover-panel:hover .panel-bg { transform: scale(1.05); }
 .panel-bg-1 {
-  background: linear-gradient(175deg, #1a7a55 0%, #0F5D3F 50%, #072813 100%);
+  background:
+    linear-gradient(175deg, rgba(15,93,63,0.35) 0%, rgba(4,18,10,0.55) 100%),
+    url('/images/panel-study.png') center center / cover no-repeat;
 }
 .panel-bg-2 {
-  background: linear-gradient(175deg, #0F5D3F 0%, #083322 50%, #030d07 100%);
+  background:
+    linear-gradient(175deg, rgba(8,51,34,0.4) 0%, rgba(2,10,5,0.6) 100%),
+    url('/images/panel-clinical.png') center center / cover no-repeat;
 }
 .panel-bg-3 {
-  background: linear-gradient(175deg, #0e4a34 0%, #072415 50%, #020a05 100%);
+  background:
+    linear-gradient(175deg, rgba(14,74,52,0.35) 0%, rgba(2,10,5,0.6) 100%),
+    url('/images/panel-research.png') center center / cover no-repeat;
 }
 .panel-overlay {
   position: absolute;
@@ -730,7 +735,9 @@ em {
 .campus-intro-img-inner {
   position: absolute;
   inset: 0;
-  background: linear-gradient(145deg, #1a6b4a 0%, #083322 60%, #051a0f 100%);
+  background:
+    linear-gradient(145deg, rgba(8,51,34,0.25) 0%, rgba(4,18,10,0.3) 100%),
+    url('/images/campus-main.png') center center / cover no-repeat;
   transition: transform 0.8s ease;
 }
 .campus-intro-img:hover .campus-intro-img-inner { transform: scale(1.04); }
@@ -760,9 +767,9 @@ em {
   transition: transform 0.8s ease;
 }
 .campus-tile:hover .campus-tile-img { transform: scale(1.06); }
-.campus-tile-img-1 { background: linear-gradient(155deg, #1a7a55 0%, #0a3d28 100%); }
-.campus-tile-img-2 { background: linear-gradient(155deg, #0a3d28 0%, #04160e 100%); }
-.campus-tile-img-3 { background: linear-gradient(155deg, #0d5038 0%, #061c11 100%); }
+.campus-tile-img-1 { background: url('/images/campus-lab.png') center center / cover no-repeat; }
+.campus-tile-img-2 { background: url('/images/campus-library.png') center center / cover no-repeat; }
+.campus-tile-img-3 { background: url('/images/campus-simulation.png') center center / cover no-repeat; }
 .campus-tile-overlay {
   position: absolute;
   inset: 0;
@@ -835,7 +842,9 @@ em {
 .news-featured-img-inner {
   position: absolute;
   inset: 0;
-  background: linear-gradient(145deg, #0F5D3F 0%, #1a8a5a 40%, #0B3D2E 100%);
+  background:
+    linear-gradient(to bottom, rgba(4,12,8,0.1) 0%, rgba(4,12,8,0.3) 100%),
+    url('/images/news-featured.png') center center / cover no-repeat;
   transition: transform 0.8s ease;
 }
 .news-featured-body { padding: 2.5rem; }
@@ -888,9 +897,9 @@ em {
   inset: 0;
   transition: transform 0.6s ease;
 }
-.news-sm-img-1 { background: linear-gradient(160deg, #0B3D2E, #0F5D3F); }
-.news-sm-img-2 { background: linear-gradient(160deg, #1a5c42, #083322); }
-.news-sm-img-3 { background: linear-gradient(160deg, #0F5D3F, #1a7a55); }
+.news-sm-img-1 { background: url('/images/news-admissions.png') center center / cover no-repeat; }
+.news-sm-img-2 { background: url('/images/news-award.png') center center / cover no-repeat; }
+.news-sm-img-3 { background: url('/images/news-conference.png') center center / cover no-repeat; }
 .news-sm-body {
   padding: 1.5rem 1.75rem;
   display: flex;
@@ -1009,10 +1018,10 @@ em {
   transition: transform 0.7s ease;
 }
 .social-post:hover .social-post-img { transform: scale(1.06); }
-.social-post-img-1 { background: linear-gradient(145deg, #0F5D3F, #1a8a5a); }
-.social-post-img-2 { background: linear-gradient(145deg, #0a3d28, #0F5D3F); }
-.social-post-img-3 { background: linear-gradient(145deg, #1a5c42, #041910); }
-.social-post-img-4 { background: linear-gradient(145deg, #0d4a34, #1a7a55); }
+.social-post-img-1 { background: url('/images/social-1.png') center center / cover no-repeat; }
+.social-post-img-2 { background: url('/images/social-2.png') center center / cover no-repeat; }
+.social-post-img-3 { background: url('/images/social-3.png') center center / cover no-repeat; }
+.social-post-img-4 { background: url('/images/social-4.png') center center / cover no-repeat; }
 .social-post-overlay {
   position: absolute;
   inset: 0;
