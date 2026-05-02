@@ -1332,10 +1332,9 @@ em {
 @media (max-width: 540px) {
   .container, .nav-container { padding: 0 1.25rem; }
   .hero-content { padding: 0 1.25rem 4rem; }
-  .quick-strip { grid-template-columns: 1fr; }
-  .quick-item { border-right: none !important; }
+  .quick-strip { grid-template-columns: 1fr 1fr; }
   .quick-item:nth-child(n) { border-top: 1px solid rgba(0,0,0,0.06); }
-  .quick-item:first-child { border-top: none; }
+  .quick-item:nth-child(1), .quick-item:nth-child(2) { border-top: none; }
   .social-mosaic { grid-template-columns: 1fr 1fr; }
   .news-card-sm { grid-template-columns: 80px 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
