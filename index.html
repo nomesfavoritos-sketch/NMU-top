@@ -29,11 +29,36 @@
         <a href="#admissions" class="nav-admissions">Admissions</a>
         <a href="#apply" class="nav-apply">Apply Now</a>
       </div>
-      <button class="nav-toggle" aria-label="Menu">
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
+
+  <!-- MOBILE DRAWER -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mobile-drawer-inner">
+      <div class="mobile-drawer-top">
+        <div class="nav-logo">
+          <span class="logo-mark">NMU</span>
+          <span class="logo-sub">Nishtar Medical University</span>
+        </div>
+        <button class="mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#campus">Campus</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+      </ul>
+      <div class="mobile-drawer-cta">
+        <a href="#apply" class="btn btn-gold" style="width:100%;justify-content:center;">Apply Now — 2026</a>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
 
   <!-- HERO -->
   <section class="hero" id="hero">

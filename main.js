@@ -9,46 +9,36 @@ window.addEventListener('scroll', () => {
   }
 }, { passive: true });
 
-// ===== MOBILE NAV =====
-const navToggle = document.querySelector('.nav-toggle');
-const navLinks = document.querySelector('.nav-links');
-let mobileNavOpen = false;
+// ===== MOBILE NAV DRAWER =====
+const navToggle = document.getElementById('navToggle');
+const mobileDrawer = document.getElementById('mobileDrawer');
+const mobileOverlay = document.getElementById('mobileOverlay');
+const mobileClose = document.getElementById('mobileClose');
 
-if (navToggle) {
-  navToggle.addEventListener('click', () => {
-    mobileNavOpen = !mobileNavOpen;
-    if (mobileNavOpen) {
-      navLinks.style.cssText = `
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        top: 0; left: 0; right: 0; bottom: 0;
-        background: rgba(6,14,10,0.98);
-        backdrop-filter: blur(20px);
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-        z-index: 999;
-      `;
-      navLinks.querySelectorAll('a').forEach(a => {
-        a.style.cssText = 'font-size: 1.75rem; font-weight: 600; color: rgba(255,255,255,0.8); letter-spacing: 0.05em; text-transform: uppercase;';
-      });
-    } else {
-      navLinks.style.cssText = '';
-      navLinks.querySelectorAll('a').forEach(a => a.style.cssText = '');
-    }
-  });
+function openDrawer() {
+  mobileDrawer.classList.add('open');
+  mobileOverlay.classList.add('open');
+  navToggle.classList.add('open');
+  navToggle.setAttribute('aria-expanded', 'true');
+  mobileDrawer.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
 }
 
-// Close mobile nav on link click
-document.querySelectorAll('.nav-links a').forEach(link => {
-  link.addEventListener('click', () => {
-    if (mobileNavOpen) {
-      mobileNavOpen = false;
-      navLinks.style.cssText = '';
-      navLinks.querySelectorAll('a').forEach(a => a.style.cssText = '');
-    }
-  });
+function closeDrawer() {
+  mobileDrawer.classList.remove('open');
+  mobileOverlay.classList.remove('open');
+  navToggle.classList.remove('open');
+  navToggle.setAttribute('aria-expanded', 'false');
+  mobileDrawer.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+}
+
+if (navToggle) navToggle.addEventListener('click', openDrawer);
+if (mobileClose) mobileClose.addEventListener('click', closeDrawer);
+if (mobileOverlay) mobileOverlay.addEventListener('click', closeDrawer);
+
+document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+  link.addEventListener('click', closeDrawer);
 });
 
 // Hero entrance handled by CSS animations (see .hero-content children)
