@@ -282,7 +282,7 @@ em {
   inset: 0;
   background:
     linear-gradient(160deg, rgba(6,14,10,0.82) 0%, rgba(11,45,28,0.65) 50%, rgba(6,14,10,0.88) 100%),
-    url('/images/hero-bg.png') center center / cover no-repeat;
+    url('/images/hero-bg-real.webp') center center / cover no-repeat;
 }
 .hero-grid-overlay {
   position: absolute;
