@@ -283,6 +283,13 @@ em {
   background:
     linear-gradient(160deg, rgba(6,14,10,0.82) 0%, rgba(11,45,28,0.65) 50%, rgba(6,14,10,0.88) 100%),
     url('/images/hero-bg-real.webp') center center / cover no-repeat;
+  animation: heroPulse 12s ease-in-out infinite;
+  transform-origin: center center;
+}
+@keyframes heroPulse {
+  0%   { transform: scale(1);    }
+  50%  { transform: scale(1.08); }
+  100% { transform: scale(1);    }
 }
 .hero-grid-overlay {
   position: absolute;
